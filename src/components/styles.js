@@ -16,7 +16,6 @@ export const useStyles = makeStyles({
   },
   sliderContainer: {
     display: 'flex',
-    height: 300,
     justifyContent: 'center',
   },
   btnContainer: {
