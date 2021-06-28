@@ -18,7 +18,6 @@ export const useStyles = makeStyles({
     display: 'flex',
     justifyContent: 'center',
     width: 400,
-    marginRight: 500,
   },
   btnContainer: {
     display: 'flex',

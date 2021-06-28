@@ -50,7 +50,7 @@ export default function App() {
 
   if (isLoading) {
     return (
-      <h1>Carregando...</h1>
+      <h1 style={{textAlign: 'center'}}>Carregando...</h1>
     )
   } 
 
