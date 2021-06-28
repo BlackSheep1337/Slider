@@ -28,11 +28,11 @@ export default function Slider({ item, handleClickRight, handleClickLeft }) {
         <Typography variant="h4" color="primary">Watch now news episodios of Rick and Morty!</Typography>
       </Box>
       <Box className={classes.mainContainer}>
-        <Paper className={classes.sliderContainer}>
+        <Box className={classes.sliderContainer}>
           <Box className={classes.slider}>
             <Slide item={ item } />
           </Box>
-        </Paper>
+        </Box>
         <ButtonGroup  color="primary" variant="contained" className={classes.btnContainer}>
           <Button onClick={ handleClickLeft } classes={classes.left}>
           <ArrowLeftIcon />
